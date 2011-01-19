@@ -1,21 +1,43 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title><?php echo $title_for_layout?></title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <!-- Include external files and scripts here (See HTML helper for more info.) -->
-        <?php echo $scripts_for_layout ?>
+        <?php echo $scripts_for_layout; ?>
+        <?php echo $this->Html->css('blueprint/screen')?> 
+        <!--[if lt IE 8]><?php echo $this->Html->css('bluepint/ie'); ?><![endif]-->
     </head>
     <body>
-        <!-- If you'd like some sort of menu to show up on all of your views, include it here -->
-        <div id="header">
-            <div id="image" />
-            <div id="menu">Menu...</div>
+        <div class="container">
+            <div id="header" class="span-24">
+                <?php 
+                    echo $this->Html->link(
+                         $this->Html->image('wireframe_header.png', array('alt'=>'Fun with CAD')),
+                                           '../', array('escape'=>false));?>
+            </div>
+            <div class="span-24">
+                <div class="span-4"> 
+                    <div class='menu'>
+                        <p><?php echo $this->Html->link('Home', '../');?></p>
+                        <p><?php echo $this->Html->link('Posts', '/posts');?></p>
+                        <p><?php echo $this->Html->link('Profile', '/users');?></p>
+                        <p><?php echo $this->Html->link('STUB_Gallery', '/gallery');?></p>
+                    </div>    
+                </div>
+                <div class="span-16">
+                    <div class="content">
+                        <?php echo $content_for_layout ?>
+                    </div> 
+                </div>
+                <div class="span-4 last" style="background-color: #ccc;">
+                    <div class='stretch'>
+                        Right...
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy;Reid Enterprises - 2011 -  All Rights Reserved
+            </div>
         </div>
-        <!-- Here's where I want my views to be displayed -->
-        <?php echo $content_for_layout ?> 
-        <!-- Add a footer to each displayed page -->
-        <div id="footer">Footer...</div>
     </body>
 </html>

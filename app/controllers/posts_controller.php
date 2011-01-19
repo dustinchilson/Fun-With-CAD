@@ -2,7 +2,7 @@
     class PostsController extends AppController {
         var $helpers = array ('Html','Form');
         var $components = array('Session');
-        var $name = 'Posts';    
+        var $name = 'Posts';
         
         function index() {
             $this->set('posts', $this->Post->find('all'));

@@ -1,5 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
+
+    RewriteCond %{REQUEST_URI} ^/forum/(.*)$
+    RewriteRule ^.*$ - [L]
+
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]
  </IfModule>
