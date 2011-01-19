@@ -8,6 +8,7 @@
         <!--[if lt IE 8]><?php echo $this->Html->css('bluepint/ie'); ?><![endif]-->
     </head>
     <body>
+        <div class="flash"><?php echo $this->Session->flash('auth');?></div>
         <div class="container">
             <div id="header" class="span-24">
                 <?php 
@@ -31,7 +32,8 @@
                 </div>
                 <div class="span-4 last" style="background-color: #ccc;">
                     <div class='stretch'>
-                        Right...
+                        <p><?php echo $this->Html->link('Login', '/users/login');?></p>
+                        <p><?php echo $this->Html->link('Logout', '/users/logout');?></p>
                     </div>
                 </div>
             </div>

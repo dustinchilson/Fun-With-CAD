@@ -1,7 +1,16 @@
 <?php
 class GroupsController extends AppController {
-
+    var $actsAs = array('Acl' => array('type' => 'requester')); 
 	var $name = 'Groups';
+    
+    function parentNode() {
+        return null;
+    }
+        
+    function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow(array('*'));
+    }
 
 	function index() {
 		$this->Group->recursive = 0;

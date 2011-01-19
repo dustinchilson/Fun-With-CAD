@@ -3,6 +3,11 @@ class UsersController extends AppController {
     var $helpers = array('Html', 'Form', 'Gravatar');
     var $components = array('Session');
 	var $name = 'Users';
+    
+    function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow(array('view', 'add', 'edit', 'index', 'login', 'logout'));
+    }
 
 	function index() {
 		$this->User->recursive = 0;
@@ -58,6 +63,44 @@ class UsersController extends AppController {
 		}
 		$this->Session->setFlash(__('User was not deleted', true));
 		$this->redirect(array('action' => 'index'));
-	}
+    }
+
+    function login() {
+        if ($this->Session->read('Auth.User')) {        
+            $this->Session->setFlash('You are logged in!');        
+            $this->redirect('/', null, false);    
+        }
+    }
+
+    function logout() {
+        $this->Session->setFlash('Good-Bye');
+        $this->redirect($this->Auth->logout());
+    }
+
+    function initDB() {
+        $group =& $this->User->Group;
+        
+        //Allow admins to everything    
+        $group->id = 1;         
+        $this->Acl->allow($group, 'controllers');     
+        
+        //allow managers to posts and widgets    
+        $group->id = 2;    
+        $this->Acl->deny($group, 'controllers');    
+        $this->Acl->allow($group, 'controllers/Posts');    
+        $this->Acl->allow($group, 'controllers/Widgets');     
+        
+        //allow users to only add and edit on posts and widgets    
+        $group->id = 3;    
+        $this->Acl->deny($group, 'controllers');            
+        $this->Acl->allow($group, 'controllers/Posts/add');    
+        $this->Acl->allow($group, 'controllers/Posts/edit');            
+        $this->Acl->allow($group, 'controllers/Widgets/add');    
+        $this->Acl->allow($group, 'controllers/Widgets/edit');    
+        
+        //we add an exit to avoid an ugly "missing views" error message   
+        echo "all done";    
+        exit;
+    }
 }
 ?>
