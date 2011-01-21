@@ -21,8 +21,9 @@
                     <div class='menu'>
                         <p><?php echo $this->Html->link('Home', '../');?></p>
                         <p><?php echo $this->Html->link('Posts', '/posts');?></p>
-                        <p><?php echo $this->Html->link('Profile', '/users');?></p>
-                        <p><?php echo $this->Html->link('STUB_Gallery', '/gallery');?></p>
+                        <p><?php echo $this->Html->link('Profile', '/profile');?></p>
+                        <p><?php echo $this->Html->link('Dashboard', '/users/dashboard');?></p>
+                        <!--<p><?php echo $this->Html->link('STUB_Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>
                 <div class="span-16">
@@ -31,14 +32,22 @@
                     </div> 
                 </div>
                 <div class="span-4 last" style="background-color: #ccc;">
-                    <div class='stretch'>
-                        <p><?php echo $this->Html->link('Login', '/users/login');?></p>
-                        <p><?php echo $this->Html->link('Logout', '/users/logout');?></p>
-                    </div>
+                    <p><?php echo $this->Html->link('Login', '/users/login');?></p>
+                    <p><?php echo $this->Html->link('Logout', '/users/logout');?></p>
                 </div>
             </div>
-            <div class="copyright">
-                &copy;Reid Enterprises - 2011 -  All Rights Reserved
+            <div id="footer" class"span-24">
+                <div class="cakepower">
+                    <?php echo $this->Html->link(
+                        $this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '0')),
+                                        'http://www.cakephp.org/',
+                        array('target' => '_blank', 'escape' => false)
+                        );
+                    ?>
+                </div>
+                <div class="copyright">
+                    &copy;Reid Enterprises - 2011 -  All Rights Reserved
+                </div>
             </div>
         </div>
     </body>

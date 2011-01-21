@@ -3,11 +3,6 @@
         var $helpers = array ('Html','Form');
         var $components = array('Session');
         var $name = 'Posts';
-        
-        function beforeFilter() {    
-            parent::beforeFilter();     
-            $this->Auth->allowedActions = array('index', 'view');
-        }        
 
         function index() {
             $this->set('posts', $this->Post->find('all'));

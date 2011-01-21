@@ -1,5 +1,5 @@
 <?php
-class User extends AppModel{
+class Profile extends AppModel{
     var $name = 'Users';
     var $validate = array(
         'name' => array('rule' => 'notEmpty'),

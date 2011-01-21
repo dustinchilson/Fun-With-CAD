@@ -375,7 +375,12 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 /*  ---  Misc  --- */
 
+.footer {
+    display:inline;
+}
+
 .copyright {
+    display:inline;
     text-align:center;
 }
 
@@ -383,5 +388,10 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
     text-align:center;
 }
 
+.cakepower {
+    display:inline;
+    float:bottom;
+    margin-right: 10px;
+}
 /*  ---  End Misc  --- */
 
