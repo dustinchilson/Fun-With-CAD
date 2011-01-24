@@ -36,18 +36,16 @@
                     <p><?php echo $this->Html->link('Logout', '/users/logout');?></p>
                 </div>
             </div>
-            <div id="footer" class"span-24">
-                <div class="cakepower">
-                    <?php echo $this->Html->link(
+            <div class="copyright">
+                &copy;Reid Enterprises - 2011 -  All Rights Reserved
+            </div>
+            <div class="cakepower">
+                <?php echo $this->Html->link(
                         $this->Html->image('cake.power.gif', array('alt'=> __('CakePHP: the rapid development php framework', true), 'border' => '0')),
                                         'http://www.cakephp.org/',
                         array('target' => '_blank', 'escape' => false)
                         );
                     ?>
-                </div>
-                <div class="copyright">
-                    &copy;Reid Enterprises - 2011 -  All Rights Reserved
-                </div>
             </div>
         </div>
     </body>

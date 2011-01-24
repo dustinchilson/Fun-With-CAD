@@ -380,7 +380,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 }
 
 .copyright {
-    display:inline;
+    display:block;
     text-align:center;
 }
 
@@ -389,9 +389,10 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 }
 
 .cakepower {
-    display:inline;
+    display:block;
     float:bottom;
-    margin-right: 10px;
+    padding-bottom: 5px;
+    text-align:center;
 }
 /*  ---  End Misc  --- */
 
