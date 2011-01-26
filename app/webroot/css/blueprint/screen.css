@@ -281,29 +281,58 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 
 /*  ---  Menu  --- */
-.menu {
+.left_menu {
     background-color: #ccc;
     padding: 10px 10px 10px 10px;
     margin-Right: -10px;
 }
 
-.menu p {
+.right_menu {
+    background-color: #ccc;
+    margin-left: -10px;
+    padding:10px 10px 10px 10px;
+}
+
+.left_menu p {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style: none;
 }
 
-.menu a {
+.left_menu a {
     border-bottom; 1px solid;
     display: block;
     margin: 0px;
     text-decoration: none;
 }
 
-.menu a:hover {
+.left_menu a:hover {
     background-color: #ddd;
     border-bottom: 1px, solid;
+}
+
+.right_menu p {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right_menu a {
+    border-bottom; 1px solid;
+    display: block;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.right_menu a:hover {
+    background-color: #ddd;
+    border-bottom: 1px, solid;
+}
+
+.right_menu h4 {
+    margin-bottom: 0px;
 }
 /*  ---  End Menu  --- */
 
@@ -326,6 +355,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
     background-color: #ccc;
 }
 /*  ---  End Content  --- */
+
 
 /*  ---  Profile  --- */
 .profile {

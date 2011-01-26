@@ -8,32 +8,44 @@
         <!--[if lt IE 8]><?php echo $this->Html->css('bluepint/ie'); ?><![endif]-->
     </head>
     <body>
-        <div class="flash"><?php echo $this->Session->flash('auth');?></div>
         <div class="container">
             <div id="header" class="span-24">
                 <?php 
                     echo $this->Html->link(
-                         $this->Html->image('wireframe_header.png', array('alt'=>'Fun with CAD')),
-                                           '../', array('escape'=>false));?>
+                         $this->Html->image('wireframe_header.png', array('alt'=>'Fun with CAD')),'../', array('escape'=>false));
+                ?>
             </div>
             <div class="span-24">
                 <div class="span-4"> 
-                    <div class='menu'>
+                    <div class='left_menu'>
                         <p><?php echo $this->Html->link('Home', '../');?></p>
                         <p><?php echo $this->Html->link('Posts', '/posts');?></p>
-                        <p><?php echo $this->Html->link('Profile', '/profile');?></p>
+                        <p><?php echo $this->Html->link('Gallery', '/gallery');?></p>
                         <p><?php echo $this->Html->link('Dashboard', '/users/dashboard');?></p>
-                        <!--<p><?php echo $this->Html->link('STUB_Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>
                 <div class="span-16">
                     <div class="content">
+                        <div class="flash">
+                            <?php echo $this->Session->flash();?>
+                        </div>
                         <?php echo $content_for_layout ?>
                     </div> 
                 </div>
                 <div class="span-4 last" style="background-color: #ccc;">
-                    <p><?php echo $this->Html->link('Login', '/users/login');?></p>
-                    <p><?php echo $this->Html->link('Logout', '/users/logout');?></p>
+                    <div class='right_menu'>
+                        <?php 
+                            if (authsome::get('id') == NULL) {
+                                echo '<p>'.$this->Html->link('Login', '/users/login').'</p>';
+                            }
+                            else {
+                                echo '<h4>Profile Tools</h4>';
+                                echo '<p>'.$this->Html->link('My Profile', '/profile/view/'.authsome::get('id')).'</p>';
+                                echo '<p>'.$this->Html->link('Edit Profile', '/users/edit/'.authsome::get('id')).'</p>';
+                                echo '<p>'.$this->Html->link('Logout', '/users/logout').'</p>';
+                           }
+                        ?>
+                    </div>
                 </div>
             </div>
             <div class="copyright">

@@ -1,5 +1,4 @@
 <!-- File: /app/views/posts/index.ctp  (edit links added) -->
-
 <div class="span-15">
     <h1>News Stories</h1>
 </div>

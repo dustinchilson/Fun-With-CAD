@@ -18,7 +18,19 @@
             <div class="var"><?php echo $profile['Profile']['school']; ?></div>
             <div class="prompt">Email:</div>
             <div class="var"><?php echo $profile['Profile']['email']; ?></div>
-        </div>
+            
+            <div class="do"><?php echo $this->Html->link(__('Edit User', true), array('action' => 'edit', $profile['Profile']['id'])); ?> </div>
+            <div class="do"><?php echo $this->Html->link(__('Delete User', true), 
+                                                            array('action' => 'delete', 
+                                                                  $profile['Profile']['id']), 
+                                                                  null, 
+                                                                  sprintf(__('Are you sure you want to delete # %s?', true), 
+                                                                  $profile['Profile']['id'])); 
+                            ?> 
+            </div>
+	        <!-- <div class="do"><?php echo $this->Html->link(__('List Users', true), array('action' => 'index')); ?> </div>-->
+            <!-- <div class="do"><?php echo $this->Html->link(__('New User', true), array('action' => 'add')); ?> </div>-->
+       </div>
     </div>
     <div class="feed">
             <div class="feed_title"><?php echo $profile['Profile']['first_name']." ".$profile['Profile']['last_name']; ?>'s News Feed</div>
