@@ -314,7 +314,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 .right_menu p {
     margin: 0px;
-    padding: 0px;
+    padding-left: 5px;
     text-decoration: none;
     list-style: none;
 }
