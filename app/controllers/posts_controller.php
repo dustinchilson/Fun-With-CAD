@@ -4,7 +4,7 @@
         var $components = array('Session');
         var $name = 'Posts';
 
-        function index() {
+        function manage() {
             $this->set('posts', $this->Post->find('all'));
         }
         
@@ -13,6 +13,10 @@
             $this->set('post', $this->Post->read());
         }
         
+        function index() {
+            $this->set('posts', $this->Post->find('all', array('limit' => 5)));
+        }
+                
         function add() {
             if (!empty($this->data)) {
                 $this->Session->setFlash('Your post has been saved.');

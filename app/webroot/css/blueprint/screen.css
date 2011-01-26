@@ -348,6 +348,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 .content {
     background-color: #fff;
+    display: block;
     padding: 10px 10px 10px 10px;
 }
 
