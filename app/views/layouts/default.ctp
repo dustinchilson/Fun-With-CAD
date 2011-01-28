@@ -22,6 +22,7 @@
                     <div class='left_menu'>
                         <p><?php echo $this->Html->link('Home', '/');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
+                        <p><?php echo $this->Html->link('Parts', '/part'); ?></p>
                         <p><?php echo $this->Html->link('Gallery', '/gallery');?></p>
                     </div>    
                 </div>
