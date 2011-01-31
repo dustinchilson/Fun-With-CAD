@@ -1,12 +1,12 @@
 <?php
-class ProfileController extends AppController {
+class PartController extends AppController {
     var $helpers = array('Html', 'Form', 'Gravatar');
     var $components = array('Session');
-	var $name = 'Profiles';
+	var $name = 'Parts';
 
     function index() {
-		$this->Profiles->recursive = 0;
-		$this->set('profiles', $this->paginate());
+		$this->Parts->recursive = 0;
+		$this->set('parts', $this->paginate());
 	}
 
 	function view($id = null) {
@@ -14,7 +14,7 @@ class ProfileController extends AppController {
 			$this->Session->setFlash(__('Invalid user', true));
 			$this->redirect(array('action' => 'index'));
 		}
-		$this->set('profile', $this->Profile->read(null, $id));
+		$this->set('part', $this->Profile->read(null, $id));
 	}
 }
 ?>

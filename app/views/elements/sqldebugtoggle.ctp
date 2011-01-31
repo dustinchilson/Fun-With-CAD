@@ -1,5 +1,3 @@
-<?php if (Configure::read('debug') == 2) { ?> 
-
     <style type="text/css"> 
         .cake-sql-log { display: none; } 
     </style> 
@@ -14,6 +12,4 @@
         --> 
     </script> 
     <a href="#" id="sql_toggle">[Expand/Collapse SQL]</a> 
-
-<?php } ?> 
 

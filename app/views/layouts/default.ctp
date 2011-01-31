@@ -91,5 +91,6 @@
             </div>
         </div>
         <?php //print_r(authsome::get());?>
+        <?php echo $this->element('sql_dump'); ?>
     </body>
 </html>

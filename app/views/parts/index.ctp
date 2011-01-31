@@ -1,36 +1,26 @@
 <div class="span-15">
 <div class="users index">
-	<h2><?php __('Users');?></h2>
+	<h2><?php __('Part List');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('username');?></th>
-			<th><?php echo $this->Paginator->sort('school');?></th>
-			<th><?php echo $this->Paginator->sort('email');?></th>
-			<th><?php echo $this->Paginator->sort('First_Name');?></th>
-			<th><?php echo $this->Paginator->sort('Last_Name');?></th>
-			<th class="actions"><?php __('Actions');?></th>
+			<th><?php echo $this->Paginator->sort('Item Num');?></th>
+			<th><?php echo $this->Paginator->sort('Item Short Desc');?></th>
+			<th><?php echo $this->Paginator->sort('Item Photo');?></th>
+			<th><?php echo $this->Paginator->sort('Class Name');?></th>
 	</tr>
 	<?php
 	$i = 0;
-	foreach ($profiles as $profile):
+	foreach ($parts as $part):
 		$class = null;
 		if ($i++ % 2 == 0) {
 			$class = ' class="altrow"';
 		}
 	?>
 	<tr<?php echo $class;?>>
-		<td><?php echo $profile['Profile']['id']; ?>&nbsp;</td>
-		<td><?php echo $profile['Profile']['username']; ?>&nbsp;</td>
-		<td><?php echo $profile['Profile']['school']; ?>&nbsp;</td>
-		<td><?php echo $profile['Profile']['email']; ?>&nbsp;</td>
-		<td><?php echo $profile['Profile']['first_name']; ?>&nbsp;</td>
-		<td><?php echo $profile['Profile']['last_name']; ?>&nbsp;</td>
-		<td class="actions">
-			<?php echo $this->Html->link(__('View', true), array('action' => 'view', $profile['Profile']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $profile['Profile']['id'])); ?>
-			<?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $profile['Profile']['id']), null, sprintf(__('Are you sure you want to delete # %s?', true), $profile['Profile']['id'])); ?>
-		</td>
+		<td><?php echo $part['Part']['id']; ?>&nbsp;</td>
+		<td><?php echo $part['Part']['desc']; ?>&nbsp;</td>
+		<td><?php echo $part['Part']['file_name']; ?>&nbsp;</td>
+		<td><?php echo $part['class']['id']; ?>&nbsp;</td>
 	</tr>
 <?php endforeach; ?>
 	</table>
