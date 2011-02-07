@@ -16,6 +16,6 @@ class PartController extends AppController {
         }
         $this->Part->id = $id;
 		$this->set('part', $this->Part->read());
-	}
+    }
 }
 ?>

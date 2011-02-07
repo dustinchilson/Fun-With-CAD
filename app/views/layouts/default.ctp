@@ -18,15 +18,16 @@
                 ?>
             </div>
             <div class="span-24">
-                <div class="span-4"> 
+                <div class="span-3"> 
                     <div class='left_menu'>
                         <p><?php echo $this->Html->link('Home', '/');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
                         <p><?php echo $this->Html->link('Parts', '/part'); ?></p>
+                        <p><?php echo $this->Html->link('Classes', '/classe'); ?></p>
                         <p><?php echo $this->Html->link('Gallery', '/gallery');?></p>
                     </div>    
                 </div>
-                <div class="span-16">
+                <div class="span-17">
                     <div class="content">
                         <div class="flash">
                             <?php echo $this->Session->flash();?>
@@ -91,6 +92,8 @@
             </div>
         </div>
         <?php //pr(authsome::get());?>
+        <?php //pr($parts);?>
+        <?php CakeLog::write('debug', '============= Some Page Loaded ============='); ?>
         <?php //echo $this->element('sql_dump'); ?>
     </body>
 </html>

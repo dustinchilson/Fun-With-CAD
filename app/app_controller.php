@@ -3,8 +3,8 @@
 			var $components = array ('Session', 'SparkPlug.Authsome' => 
 				array('model' => 'User'));
         	var $uses = array('SparkPlug.UserGroup');
-	
-			function beforeFilter()
+            
+            function beforeFilter()
 			{
 	    		parent::beforeFilter();
             	SparkPlugIt($this);

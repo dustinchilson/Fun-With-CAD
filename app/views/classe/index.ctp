@@ -1,27 +1,23 @@
 <div>
-    <h2><?php __('Part List');?></h2>
+    <h2><?php __('Classe List');?></h2>
     <table cellpadding="0" cellspacing="0">
     <tr>
-            <th><?php echo $this->Paginator->sort('Item Num');?></th>
-            <th><?php echo $this->Paginator->sort('Item Short Desc');?></th>
-            <th><?php echo $this->Paginator->sort('Item Photo');?></th>
-            <th><?php echo $this->Paginator->sort('Class Name');?></th>
-            <th><?php echo $this->Paginator->sort('Group Name');?></th>
+            <th><?php echo $this->Paginator->sort('Classe Num');?></th>
+            <th><?php echo $this->Paginator->sort('Classe Short Desc');?></th>
+            <th><?php echo $this->Paginator->sort('Classe Photo');?></th>
     </tr>
     <?php
     $i = 0;
-    foreach ($parts as $part):
+    foreach ($classes as $classe):
         $class = null;
         if ($i++ % 2 == 0) {
             $class = ' class="altrow"';
         }
     ?>
     <tr<?php echo $class;?>>
-        <td><?php echo $this->Html->link($part['Part']['id'], '/part/view/'.$part['Part']['id']);?></td>
-        <td><?php echo $part['Part']['desc']; ?>&nbsp;</td>
-        <td><?php echo $part['Part']['file_name']; ?>&nbsp;</td>
-        <td><?php echo $part['Class']['id']; ?>&nbsp;</td>
-        <td><?php echo $part['Group']['id']; ?>&nbsp;</td>
+        <td><?php echo $this->Html->link($classe['Classe']['id'], '/classe/view/'.$classe['Classe']['id']);?></td>
+        <td><?php echo $classe['Classe']['desc']; ?>&nbsp;</td>
+        <td><?php echo $classe['Classe']['file_name']; ?>&nbsp;</td>
     </tr>
 <?php endforeach; ?>
     </table>

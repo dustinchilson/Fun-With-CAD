@@ -1,10 +1,14 @@
 <?php
 class Part extends AppModel{
     var $name = 'part';
-    #var $hasOne = array('group_parts');
+//    var $hasAndBelongsToMany = array( 
+//        'Groups' => array(
+//            'className' => 'group_parts'
+//        ));
     var $belongsTo = array(
         'Class' => array(
-            'className' => 'classe'
+            'className' => 'classe',
+            'foreignKey' => 'class_id'
         ),
         'Group' => array(
             'className' => 'groups'
