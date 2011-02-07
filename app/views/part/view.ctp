@@ -19,6 +19,17 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
+        <td colspan=2>
+            <?php echo $this->Html->
+                link('Buy one!', 'http://www.reidsupply.com/Detail.aspx?itm='
+                    .$part['Part']['id'], 
+                    array(
+                        'target' => '_blank'
+                    )
+                ); ?>
+        </td>
+    </tr>
+    <tr>
         <td>ID:</td>
         <td><?php echo $part['Part']['id']; ?></td>
     </tr>

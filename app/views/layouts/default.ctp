@@ -36,7 +36,7 @@
                         <?php echo $content_for_layout ?>
 
                         <div class="copyright">
-                            &copy;Reid Enterprises - 2011 -  All Rights Reserved
+                            &copy;Reid Entities - 2011 -  All Rights Reserved
                         </div>
                         <div class="cakepower">
                             <?php echo $this->Html->link(
@@ -93,7 +93,7 @@
         </div>
         <?php //pr(authsome::get());?>
         <?php //pr($parts);?>
-        <?php CakeLog::write('debug', '============= Some Page Loaded ============='); ?>
+        <?php //CakeLog::write('debug', '============= Some Page Loaded ============='); ?>
         <?php //echo $this->element('sql_dump'); ?>
     </body>
 </html>
