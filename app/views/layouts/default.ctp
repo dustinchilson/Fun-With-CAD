@@ -12,7 +12,7 @@
             <div id="header" class="span-24">
                 <?php 
                     echo $this->Html->link(
-                         $this->Html->image('wireframe_header.png', 
+                            $this->Html->image('wireframe_header.png', 
                                 array('alt'=>'Fun with CAD')),'/', 
                                 array('escape'=>false));
                 ?>
@@ -24,7 +24,7 @@
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
                         <p><?php echo $this->Html->link('Parts', '/part'); ?></p>
                         <p><?php echo $this->Html->link('Classes', '/classe'); ?></p>
-                        <p><?php echo $this->Html->link('Gallery', '/gallery');?></p>
+                        <!--<p><?php //echo $this->Html->link('Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>
                 <div class="span-17">
