@@ -4,8 +4,38 @@
         <title><?php echo $title_for_layout?></title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <?php echo $scripts_for_layout; ?>
+        <?php echo $this->Html->css('jquery.fancybox-1.3.4')?> 
         <?php echo $this->Html->css('blueprint/screen')?> 
         <!--[if lt IE 8]><?php echo $this->Html->css('bluepint/ie'); ?><![endif]-->
+        <?php echo $this->Html->script(
+            'https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js'); ?>
+        <?php echo $this->Html->script('fancybox/jquery.fancybox-1.3.4.pack'); ?>
+        <?php echo $this->Html->script('fancybox/jquery.easing-1.3.pack'); ?>
+        <?php echo $this->Html->script('fancybox/jquery.mousewheel-3.0.4.pack'); ?>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                /* Apply fancybox to multiple items */
+                $("a.iframe").fancybox({
+                    'width'              :  800,
+                    'height'             :  600,
+                    'transitionIn'  	 :	'elastic',
+                    'transitionOut'	     :	'elastic',
+                    'speedIn'		     :	300, 
+                    'speedOut'		     :	150, 
+                    'overlayShow'	     :	true,
+                    'titleShow'          :  true,
+                    'titlePostiton'      :  'over',
+                    'type'               :  'iframe',
+                    'scrolling'          :  'no',
+                    'hideOnContentClick' :  true,
+                    'showCloseButton'    :  true,
+                    'enableEscapeButton' :  true,
+                    'autoScale'          :  true
+                });
+                
+            });
+        </script>
     </head>
     <body>
         <div class="container">
@@ -13,12 +43,17 @@
                 <?php 
                     echo $this->Html->link(
                             $this->Html->image('wireframe_header.png', 
-                                array('alt'=>'Fun with CAD')),'/', 
-                                array('escape'=>false));
+                                array(
+                                    'alt'=>'Fun with CAD', 
+                                    'width' => '950px', 
+                                    'height' => '80px'
+                                )
+                            ),'/', 
+                            array('escape'=>false));
                 ?>
             </div>
             <div class="span-24">
-                <div class="span-3"> 
+                <div class="span-4"> 
                     <div class='left_menu'>
                         <p><?php echo $this->Html->link('Home', '/');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
@@ -27,7 +62,7 @@
                         <!--<p><?php //echo $this->Html->link('Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>
-                <div class="span-17">
+                <div class="span-16">
                     <div class="content">
                         <div class="flash">
                             <?php echo $this->Session->flash();?>
@@ -41,10 +76,19 @@
                         <div class="cakepower">
                             <?php echo $this->Html->link(
                                        $this->Html->image('cake.power.gif', 
-                                            array('alt'=> __('CakePHP: the rapid development php framework'
-                                                  , true), 'border' => '0')),
-                                            'http://www.cakephp.org/',
-                                            array('target' => '_blank', 'escape' => false));
+                                            array(
+                                                'alt'=> __('CakePHP: the rapid development php framework', true), 
+                                                'border' => '0', 
+                                                'width' => '98px', 
+                                                'height' => '13px'
+                                            )
+                                        ),
+                                        'http://www.cakephp.org/',
+                                        array(
+                                            'target' => '_blank', 
+                                            'escape' => false
+                                        )
+                                    );
                             ?>
                         </div>
                     </div> 

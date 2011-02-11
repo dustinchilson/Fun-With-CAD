@@ -1,30 +1,20 @@
-<table width="75%">
+<table width="75%" align="left">
     <tr>
-        <td colspan=2>
-            <div align="center">
+        <td width="18%" rowspan=3>
+            <div class="top_class">
                 <?php 
                     echo $this->Html->image('http://www.reidsupply.com/images/class/'
                                     .$classe['Classe']['file_name'],
                                     array(
                                         'alt'   => 'Part Number: '.$classe['Classe']['id'],
-                                        'textalign' => 'center'
+                                        'textalign' => 'center', 
+                                        'width' => '100px',
+                                        'height' => '100px'
                                     ));
                 ?>
             </div>
-            <div style="display:none;"><?php pr($classe); ?></div> 
         </td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td>ID:</td>
-        <td><?php echo $classe['Classe']['id']; ?></td>
-    </tr>
-    <tr>
-    <tr>
-        <td>Name: </td>
+        <td width="15%">Name: </td>
         <td><?php echo $classe['Classe']['desc']; ?></td>
     </tr>
     <?php if ($classe['Classe']['parent_id'] != null) { ?>
@@ -50,7 +40,6 @@
                     <th>Part Num</th>
                     <th>Part Desc</th>
             </tr>
-
         <?php
         foreach ($classe['Parts'] as $parts):?>
             <tr>
@@ -60,31 +49,46 @@
         <?php endforeach; ?>
     </table>
 <?php }elseif ($classe['subClass'] != null) { ?>
-    <table cellpadding="0" cellspacing="0">
-            <tr>
-                    <th>Class Num</th>
-                    <th>Class Name</th>
-                    <th>Class Desc</th>
-            </tr>
+        <div class="subClasses">
+            <?php foreach ($classe['subClass'] as $subClass):?>
+                <div class="subClass">
+                    <div class="subClassName">
+                        <?php echo $subClass['desc']; ?>
+                    </div>
+                    <div class="subClassPic">
+                        <?php echo $this->Html->link(
+                                       $this->Html->image('http://www.reidsupply.com/images/class/'
+                                              .$subClass['file_name'],
+                                              array(
+                                              'alt'   => 'Part Number: '.$subClass['id'],
+                                              'textalign' => 'center',
+                                              'width' => '100px',
+                                              'height' => '100px'
+                                              )
+                                        ),
+                                   '/classe/view/'.$subClass['id'], 
+                                   array(
+                                       'escape' => false
+                                   )
+                               );
+                        ?>
 
-        <?php
-        foreach ($classe['subClass'] as $subClass):?>
-            <tr>
-                <td><?php echo $this->Html->link($subClass['id'], '/classe/view/'.$subClass['id']); ?></td>
-                <td><?php echo $subClass['desc']; ?></td>
-                <td><?php echo $subClass['long_desc']; ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
 <?php } else { ?>
 <p>
     Sorry no SubClasses or Parts in this catagory. If you would like to see Reid Supply's Selection, please visit 
     <?php echo $this->Html->link('Here', 
-                                 'http://www.reidsupply.com/Results.aspx?pid='.$classe['Classe']['id'], 
-                                 array (
-                                     'target' => '_blank'
-                                 )
-                );
+                      'http://www.reidsupply.com/Results.aspx?pid='.$classe['Classe']['id'], 
+                      array (
+                        'target' => '_blank'
+                      ));
+    ?>
+    <?php 
+        // logs when there are no parts in the selected catagory            
+        CakeLog::write('Missing_parts', 'No Parts in this Catagory.....'.$classe['Classe']['id']); 
     ?>
 </p>
 <?php }; ?>

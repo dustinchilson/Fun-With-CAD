@@ -7,7 +7,9 @@
                                     .$part['Part']['file_name'],
                                     array(
                                         'alt'   => 'Part Number: '.$part['Part']['id'],
-                                        'textalign' => 'center'
+                                        'textalign' => 'center',
+                                        'width' => 300,
+                                        'height' => 300
                                     ));
                 ?>
             </div>
@@ -21,8 +23,21 @@
     <tr>
         <td colspan=2>
             <?php echo $this->Html->
+                link('3d CAD Preview!', 'http://www.reidsupply.com/wucontrol/RemoteCad.aspx?id='
+                    .$part['Part']['id'],
+                    //.'?KeepThis=true&TB_iframe=true&height=400&width=600&model=true', 
+                    array(
+                        'class' => 'iframe',
+                        'title' => $part['Part']['name'].' - '.$part['Part']['id'].' - '.'3d View!'
+                    )
+                ); ?>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2>
+            <?php echo $this->Html->
                 link('Buy one!', 'http://www.reidsupply.com/Detail.aspx?itm='
-                    .$part['Part']['id'], 
+                .$part['Part']['id'],
                     array(
                         'target' => '_blank'
                     )
@@ -38,16 +53,17 @@
         <td><?php echo $part['Part']['name']; ?></td>
     </tr>
     <tr>
-        <td>Decription: </td>
-        <td><?php echo $part['Part']['desc']; ?></td>
-    </tr>
-    <tr>
         <td>Classification: </td>
         <td><?php echo $this->Html->link($part['Class']['desc'], '/classe/view/'.$part['Part']['class_id']);?></td>
-    </tr>
+    </tr>   
     <tr>
-        <td>Group: </td>
-        <td><?php echo $part['Group']['desc'];?></td>
+        <td>Decription: </td>
+        <td>
+            <?php echo $part['Part']['desc']; ?>
+            <br/>
+            <?php echo $part['Group']['desc'];?>
+        </td>
     </tr>
+
 </table>
 <p><?php echo $this->Html->link('Go back to index', 'javascript:history.go(-1)');?></p>
