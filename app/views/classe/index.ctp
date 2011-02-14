@@ -1,3 +1,8 @@
+<?php
+// ====================================================
+// Index view for the class controller
+// ====================================================
+?>
 <div>
     <h2><?php __('Classe List');?></h2>
     <table cellpadding="0" cellspacing="0">

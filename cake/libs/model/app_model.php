@@ -32,4 +32,51 @@
  * @subpackage    cake.cake.libs.model
  */
 class AppModel extends Model {
+    /** 
+     * Makes a subquery 
+     * @param strin|array $type The type o the query (only available 'count') or the $options 
+     * @param string|array $options The options array or $alias in case of $type be a array 
+     * @param string $alias You can use this intead of $options['alias'] if you want 
+     */ 
+    public function subquery($type, $options = null, $alias = null){ 
+        $fields = array(); 
+        if(is_string($type)){ 
+            $isString = true; 
+        }else{ 
+            $alias = $options; 
+            $options = $type; 
+        } 
+         
+        if($alias === null){ 
+            $alias = $this->alias . '2'; 
+        } 
+         
+        if(isset($isString)){ 
+            switch ($type){ 
+                case 'count': 
+                    $fields = array('COUNT(*)'); 
+                    break; 
+            } 
+        } 
+         
+        $dbo = $this->getDataSource(); 
+                 
+        $default = array( 
+            'fields' => $fields, 
+            'table' => $dbo->fullTableName($this), 
+            'alias' => $alias, 
+            'limit' => null, 
+            'offset' => null, 
+            'joins' => array(), 
+            'conditions' => array(), 
+            'order' => null, 
+            'group' => null 
+        ); 
+         
+        $params = array_merge($default, $options); 
+        $subQuery = $dbo->buildStatement($params, $this); 
+         
+        return $subQuery; 
+    }
+    
 }

@@ -1,61 +1,85 @@
-<table width="75%" align="left">
-    <tr>
-        <td width="18%" rowspan=3>
-            <div class="top_class">
-                <?php 
-                    echo $this->Html->image('http://www.reidsupply.com/images/class/'
-                                    .$classe['Classe']['file_name'],
-                                    array(
-                                        'alt'   => 'Part Number: '.$classe['Classe']['id'],
-                                        'textalign' => 'center', 
-                                        'width' => '100px',
-                                        'height' => '100px'
-                                    ));
-                ?>
+<?php if ($classe['Classe']['parent_id'] != null or $classe['Parts'] != null) { 
+    //
+    // This Section Creates the breadcrumbs for the  
+    // top of the page.
+    //
+    // uberClass is a variable from the controller
+    // pulling data from the database.
+    //
+    // breadCrumb is a variable from the controller
+    // hard coded to show the home catagory within
+    // the breadcrumb heiarcy.
+    //
+    // uberClass Index is the Parent's Parent's Parent
+    // superSuperClass index is the Parent's Parent
+    // superClass is Classe's parent.
+    //
+    $this->Html->addCrumb($breadCrumb, $breadCrumbLink); 
+    if ($uberClass[0]['uberClass']['id'] != null and
+        $uberClass[0]['uberClass']['id'] != 10018592 and // make sure it isnt the main catagory
+        $uberClass[0]['uberClass']['id'] >= 1100000) { // none of the top level catagories
+            $this->Html->addCrumb(
+                $uberClass[0]['uberClass']['desc'], '/classe/view/'.
+                $uberClass[0]['uberClass']['id']);
+
+    }
+    if ($uberClass[0]['superSuperClass']['id'] != null and 
+        $uberClass[0]['superSuperClass']['id'] != 10018592) { // make sure it isnt the main catagory
+            $this->Html->addCrumb(
+            $uberClass[0]['superSuperClass']['desc'], '/classe/view/'.
+            $uberClass[0]['superSuperClass']['id']);
+    }
+    if ($classe['superClass']['id'] != 10018592) { // make sure it isnt the main catagory
+        $this->Html->addCrumb($classe['superClass']['desc'], '/classe/view/'.$classe['superClass']['id']);
+    };
+    $this->Html->addCrumb($classe['Classe']['desc'], '/classe/view/'.$classe['Classe']['id']);
+?>
+    
+    <div class="topClasses">
+        <div class="topClass">
+            <div class='className'><?php echo $classe['Classe']['desc']; ?></div>
+            <div id="classPic">
+            <?php 
+                echo $this->Html->image('http://www.reidsupply.com/images/class/'
+                                .$classe['Classe']['file_name'],
+                                array(
+                                    'alt'   => 'Part Number} '.$classe['Classe']['id'],
+                                    'textalign' => 'center', 
+                                    'width' => '100px',
+                                    'height' => '100px'
+                                ));
+            ?>
             </div>
-        </td>
-        <td width="15%">Name: </td>
-        <td><?php echo $classe['Classe']['desc']; ?></td>
-    </tr>
-    <?php if ($classe['Classe']['parent_id'] != null) { ?>
-        <tr>
-            <td>Parent Class: </td>
-            <td><?php echo $this->Html->link($classe['Classe']['parent_id'], 
-                                             '/classe/view/'.$classe['Classe']['parent_id']); 
-                ?>
-            </td>
-        </tr>
-    <?php }; ?>
-    <tr>
-        <td>Decription: </td>
-        <td><?php echo $classe['Classe']['long_desc']; ?></td>
-    </tr>
-    <tr>    
-</table>
-<p><?php echo $this->Html->link('Go back', 'javascript:history.go(-1)');?></p>
+        </div>
+        <div class='classDesc'>
+            <?php echo $classe['Classe']['long_desc']; ?>
+        </div>
+    </div>
+<?php }; ?>
 
 <?php if ($classe['Parts'] != NULL) { ?>
-    <table cellpadding="0" cellspacing="0">
+    <div class='parts'>
+        <table cellpadding="0" cellspacing="0">
             <tr>
                     <th>Part Num</th>
                     <th>Part Desc</th>
             </tr>
-        <?php
-        foreach ($classe['Parts'] as $parts):?>
-            <tr>
-                <td><?php echo $this->Html->link($parts['id'], '/part/view/'.$parts['id']); ?></td>
-                <td><?php echo $parts['desc']; ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
+            <?php foreach ($classe['Parts'] as $parts):?>
+                <tr>
+                    <td><?php echo $this->Html->link($parts['id'], '/part/view/'.$parts['id']); ?></td>
+                    <td><?php echo $parts['desc']; ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </div>
 <?php }elseif ($classe['subClass'] != null) { ?>
         <div class="subClasses">
             <?php foreach ($classe['subClass'] as $subClass):?>
                 <div class="subClass">
-                    <div class="subClassName">
+                    <div class="className">
                         <?php echo $subClass['desc']; ?>
                     </div>
-                    <div class="subClassPic">
+                    <div class="classPic">
                         <?php echo $this->Html->link(
                                        $this->Html->image('http://www.reidsupply.com/images/class/'
                                               .$subClass['file_name'],
@@ -92,4 +116,5 @@
     ?>
 </p>
 <?php }; ?>
+<?php //pr($uberClass); ?>
 <?php //pr($classe); ?>

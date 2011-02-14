@@ -6,6 +6,7 @@
         <?php echo $scripts_for_layout; ?>
         <?php echo $this->Html->css('jquery.fancybox-1.3.4')?> 
         <?php echo $this->Html->css('blueprint/screen')?> 
+        <?php echo $this->Html->css('fwc')?> 
         <!--[if lt IE 8]><?php echo $this->Html->css('bluepint/ie'); ?><![endif]-->
         <?php echo $this->Html->script(
             'https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js'); ?>
@@ -58,16 +59,15 @@
                         <p><?php echo $this->Html->link('Home', '/');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
                         <p><?php echo $this->Html->link('Parts', '/part'); ?></p>
-                        <p><?php echo $this->Html->link('Classes', '/classe'); ?></p>
-                        <!--<p><?php //echo $this->Html->link('Gallery', '/gallery');?></p>-->
+                        <p><?php echo $this->Html->link('Classes', '/classe/view/10018592'); ?></p>
+                        <!--<p><?php echo $this->Html->link('Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>
                 <div class="span-16">
                     <div class="content">
-                        <div class="flash">
-                            <?php echo $this->Session->flash();?>
+                        <div class='breadCrumbs'>
+                            <?php echo $this->Html->getCrumbs(' > ','Home'); ?>
                         </div>
-
                         <?php echo $content_for_layout ?>
 
                         <div class="copyright">
