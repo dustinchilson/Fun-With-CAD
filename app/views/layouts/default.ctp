@@ -13,6 +13,8 @@
         <?php echo $this->Html->script('fancybox/jquery.fancybox-1.3.4.pack'); ?>
         <?php echo $this->Html->script('fancybox/jquery.easing-1.3.pack'); ?>
         <?php echo $this->Html->script('fancybox/jquery.mousewheel-3.0.4.pack'); ?>
+        <!-- Setup for FancyBox -->
+        <!-- {{{ -->
         <script type="text/javascript">
             $(document).ready(function() {
 
@@ -37,6 +39,7 @@
                 
             });
         </script>
+        <!-- }}} -->
     </head>
     <body>
         <div class="container">
@@ -58,8 +61,7 @@
                     <div class='left_menu'>
                         <p><?php echo $this->Html->link('Home', '/');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
-                        <p><?php echo $this->Html->link('Parts', '/part'); ?></p>
-                        <p><?php echo $this->Html->link('Classes', '/classe/view/10018592'); ?></p>
+                        <p><?php echo $this->Html->link('Part Gallery', '/classe/view/10018592'); ?></p>
                         <!--<p><?php echo $this->Html->link('Gallery', '/gallery');?></p>-->
                     </div>    
                 </div>

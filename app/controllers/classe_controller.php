@@ -4,7 +4,8 @@ class ClasseController extends AppController {
     var $components = array('Session');
 	var $name = 'Classe';
     
-    
+    // Index Method
+    // {{{
     // ===============================================
     // Creates the index page for the classification
     // structure.
@@ -16,7 +17,10 @@ class ClasseController extends AppController {
 		$this->Classes->recursive = 0;
 		$this->set('classes', $this->paginate());
 	}
-    
+    // }}}
+
+    // View method
+    // {{{
     // ===============================================
     // Creates the view page for the classification
     // structure.
@@ -54,5 +58,6 @@ class ClasseController extends AppController {
         $this->Classe->id = $id;
         $this->set('classe', $this->Classe->read());
     }
+    // }}}
 }
 ?>
