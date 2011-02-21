@@ -162,6 +162,16 @@
     font-size: 10px;
     text-align:left;
 }
+.required {
+	font-weight: bold;
+}
+.error-message {
+	color: red;
+}
+.form-error {
+	color: red;
+}
+
 /*  ---  End Misc  --- */
 .topClasses {
     display:inline-block;
