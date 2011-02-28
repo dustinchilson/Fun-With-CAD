@@ -14,8 +14,10 @@ class ClasseController extends AppController {
     // paginates the results
     // ===============================================
     function index() {
-		$this->Classes->recursive = 0;
-		$this->set('classes', $this->paginate());
+		//$this->Classes->recursive = 0;
+		//$this->set('classes', $this->paginate());
+        $this->view(10018592);
+        $this->render('view');
 	}
     // }}}
 
@@ -36,7 +38,7 @@ class ClasseController extends AppController {
         }
         
         $this->set('breadCrumb', 'Categories');
-        $this->set('breadCrumbLink', '/classe/view/10018592');
+        $this->set('breadCrumbLink', '/classe/');
 
         $this->set('uberClass', $this->Classe->query(
             'SELECT 

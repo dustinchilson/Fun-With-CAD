@@ -5,5 +5,7 @@ class Profile extends AppModel{
         'name' => array('rule' => 'notEmpty'),
         'password' => array('rule' => 'notEmpty')
     );
+
+
 }
 ?>

@@ -59,18 +59,33 @@
 
 <?php if ($classe['Parts'] != NULL) { ?>
     <div class='parts'>
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-                    <th>Part Num</th>
-                    <th>Part Desc</th>
-            </tr>
-            <?php foreach ($classe['Parts'] as $parts):?>
-                <tr>
-                    <td><?php echo $this->Html->link($parts['id'], '/part/view/'.$parts['id']); ?></td>
-                    <td><?php echo $parts['desc']; ?></td>
-                </tr>
-            <?php endforeach; ?>
-        </table>
+        <?php foreach ($classe['Parts'] as $parts):?>
+            <div class="subClass">
+                <div class="className">
+                    <?php echo $parts['desc']; ?>
+                </div>
+                <div class="classPic">
+                    <?php
+                        echo $this->Html->link(
+                            $this->Html->image(
+                                'http://www.reidsupply.com/images/products/300/'.$parts['file_name'],
+                                array (
+                                    'alt' => 'Part Number'. $parts['id'],
+                                    'textalign' => 'center',
+                                    'width' => '100px',
+                                    'height' => '100px'
+                                )
+                            ),
+                            '/part/view/'.$parts['id'],
+                            array (
+                                'class' => 'iframe',
+                                'title' => $parts['name'].' - '.$parts['id'],
+                                'escape' => false
+                            ));
+                    ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
     </div>
 <?php }elseif ($classe['subClass'] != null) { ?>
         <div class="subClasses">

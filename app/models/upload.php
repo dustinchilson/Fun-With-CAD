@@ -7,6 +7,13 @@ class Upload extends AppModel {
         'Media.Generator',
         'Media.Meta'
     );
+
+    var $belongsTo = array(
+        'User' => array(
+            'className' => 'users'
+        )
+    );
+
     var $virtualFields = array(
         'path' => "CONCAT_WS('/', dirname, basename)"
     );

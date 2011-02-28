@@ -1,8 +1,6 @@
 <?php
 class Users extends AppModel {
 	var $name = 'Users';
-    var $belongsTo = array('Group');
-    var $actsAs = array('Acl' => array('type' => 'requester'));
    
     function parentNode() {
         if (!$this->id && empty($this->data)) {
@@ -54,14 +52,11 @@ class Users extends AppModel {
 	);
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
-	var $belongsTo = array(
-		'Group' => array(
-			'className' => 'Group',
-			'foreignKey' => 'group_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		)
-	);
+	var $belongsTo = array();
+    var $hasMany = array (
+        'Uploads' => array (
+            'className' => 'upload'
+        )
+    );
 }
 ?>

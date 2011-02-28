@@ -11,79 +11,50 @@
 
 
 /*  ---  Menu  --- */
-.left_menu {
+.menu {
+    display: block;
     background-color: #ccc;
-    padding: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-Right: -10px;
 }
-
-.right_menu {
-    background-color: #ccc;
-    margin-left: -10px;
-    padding:10px 10px 10px 10px;
-}
-
-.left_menu p {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-}
-
-.left_menu a {
-    border-bottom; 1px solid;
-    display: block;
-    margin: 0px;
-    text-decoration: none;
-}
-
-.left_menu a:hover {
-    background-color: #ddd;
-    border-bottom: 1px, solid;
-}
-
-.right_menu p {
+.menu p {
     margin: 0px;
     padding-left: 5px;
     text-decoration: none;
     list-style: none;
 }
-
-.right_menu a {
+.menu a {
     border-bottom; 1px solid;
     display: block;
     margin: 0px;
     text-decoration: none;
 }
 
-.right_menu a:hover {
+.menu a:hover {
     background-color: #ddd;
     border-bottom: 1px, solid;
 }
-
-.right_menu h4 {
+.menu h4 {
+    padding-top: 5px;
     margin-bottom: 0px;
 }
 /*  ---  End Menu  --- */
 
 
 /*  ---  Content  --- */
-.span-17 {
-    background-color:#fff;
-}
-
 .content tbody tr:nth-child(even) td, .content tbody tr.even td {
-    background:#fff;
+    background:#FFF;
 }
 
 .content {
     background-color: #fff;
     display: block;
-    padding: 10px 10px 10px 10px;
 }
 
 .container {
-    background-color: #ccc;
+    background-color: #FFF;
+    display: block;
 }
 /*  ---  End Content  --- */
 
@@ -157,7 +128,7 @@
 }
 
 .breadCrumbs {
-    margin-left: 20px;
+    margin-left: 13px;
     margin-bottom: 10px;
     font-size: 10px;
     text-align:left;
@@ -175,16 +146,15 @@
 /*  ---  End Misc  --- */
 .topClasses {
     display:inline-block;
-    margin-left: 20px;
-    margin-right: 28px;
-    border-bottom: 1px solid;
     margin-bottom: 10px;
     padding-bottom: 5px;
+    padding-right: 17px;
 }
 .topClass {
     display:inline-block;
     float:left;
-    margin-right: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
     border: 1px solid;
     width: 100px; 
 }
@@ -197,17 +167,16 @@
 }
 .classDesc {
     display: inline;
-    margin-bottom:10px;
 }
 
 .subClasses {
     display:block;
-    padding-left: 20px;
 }
 .subClass {
     display:inline-block;
-    margin-right: 10px;
-    margin-bottom: 5px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
     border: 1px solid;
     width: 100px; 
 
@@ -215,6 +184,33 @@
 
 .parts {
     display: block;
-    margin-left: 18px;
-    margin-right:20px;
+}
+
+.partDesc {
+    display: inline;
+    float: left;
+    margin-right: 1px;
+    height: 480px;
+    width: 200px;
+}
+.partPic {
+    display: block;
+    border; 1px solid;
+}
+.partInfo {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.partInfoBlock {
+    display: inline;
+    margin-bottom: 20px;
+}
+.partInfoBlock1{
+
+}
+.partInfoBlock2 {
+    margin-bottom: 7px;
+}
+.preview {
 }

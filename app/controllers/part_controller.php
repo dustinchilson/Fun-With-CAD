@@ -2,7 +2,7 @@
 class PartController extends AppController {
     var $helpers = array('Html', 'Form', 'Gravatar');
     var $components = array('Session');
-	var $name = 'Part';
+    var $name = 'Part';
 
     // ==================================================
     // Creates the index for all of the parts
@@ -21,6 +21,7 @@ class PartController extends AppController {
     // Redirects back to index if no ID provided
     // ==================================================
     function view($id = null) {
+        $this->layout = 'blank';
         if (!$id) {
 			$this->Session->setFlash(__('Invalad Part Number', true));
 			$this->redirect(array('action' => 'index'));

@@ -27,7 +27,7 @@
                     'speedIn'		     :	300, 
                     'speedOut'		     :	150, 
                     'overlayShow'	     :	true,
-                    'titleShow'          :  true,
+                    'titleShow'          :  false,
                     'titlePostiton'      :  'over',
                     'type'               :  'iframe',
                     'scrolling'          :  'no',
@@ -43,7 +43,7 @@
     </head>
     <body>
         <div class="container">
-            <div id="header" class="span-24">
+            <div id="header" class="span-24 last">
                 <?php 
                     echo $this->Html->link(
                             $this->Html->image('wireframe_header.png', 
@@ -56,47 +56,14 @@
                             array('escape'=>false));
                 ?>
             </div>
-            <div class="span-24">
-                <div class="span-4"> 
-                    <div class='left_menu'>
-                        <p><?php echo $this->Html->link('Home', '/');?></p>
+            <div id="main" class="span-24">
+                <div id="nav_bar" class="span-4" style="display:block;"> 
+                    <div class='menu'>
+                        <h4>Navigation</h4>
+                        <p><?php echo $this->Html->link('Home', '/pages/home');?></p>
                         <p><?php echo $this->Html->link('News', '/posts');?></p>
-                        <p><?php echo $this->Html->link('Part Gallery', '/classe/view/10018592'); ?></p>
-                        <!--<p><?php echo $this->Html->link('Gallery', '/gallery');?></p>-->
-                    </div>    
-                </div>
-                <div class="span-16">
-                    <div class="content">
-                        <div class='breadCrumbs'>
-                            <?php echo $this->Html->getCrumbs(' > ','Home'); ?>
-                        </div>
-                        <?php echo $content_for_layout ?>
-
-                        <div class="copyright">
-                            &copy;Reid Entities - 2011 -  All Rights Reserved
-                        </div>
-                        <div class="cakepower">
-                            <?php echo $this->Html->link(
-                                       $this->Html->image('cake.power.gif', 
-                                            array(
-                                                'alt'=> __('CakePHP: the rapid development php framework', true), 
-                                                'border' => '0', 
-                                                'width' => '98px', 
-                                                'height' => '13px'
-                                            )
-                                        ),
-                                        'http://www.cakephp.org/',
-                                        array(
-                                            'target' => '_blank', 
-                                            'escape' => false
-                                        )
-                                    );
-                            ?>
-                        </div>
-                    </div> 
-                </div>
-                <div class="span-4 last" style="background-color: #ccc;">
-                    <div class='right_menu'>
+                        <p><?php echo $this->Html->link('Part Gallery', '/classe/'); ?></p>
+                        <p><?php echo $this->Html->link('Gallery', '/profile');?></p>
                         <?php 
                             if (authsome::get('id') == NULL or authsome::get('id') == 3) {
                                 echo '<p>'.$this->Html->link('Register', '/users/add')
@@ -132,6 +99,38 @@
                                                   .'</p>';
                                 }
                            }
+                        ?>
+                    </div>
+                </div>
+                <div class="span-20 last">
+                    <div class="content">
+                        <div class='breadCrumbs'>
+                            <?php echo $this->Html->getCrumbs(' > ','Home'); ?>
+                        </div>
+                        <?php echo $content_for_layout ?>
+
+                   </div> 
+                </div>
+                <div class="span-24 last">
+                    <div class="copyright">
+                        &copy;Reid Entities - 2011 -  All Rights Reserved
+                   </div>
+                    <div class="cakepower">
+                        <?php echo $this->Html->link(
+                                   $this->Html->image('cake.power.gif', 
+                                        array(
+                                            'alt'=> __('CakePHP: the rapid development php framework', true), 
+                                            'border' => '0', 
+                                            'width' => '98px', 
+                                            'height' => '13px'
+                                        )
+                                    ),
+                                    'http://www.cakephp.org/',
+                                    array(
+                                        'target' => '_blank', 
+                                        'escape' => false
+                                    )
+                                );
                         ?>
                     </div>
                 </div>
