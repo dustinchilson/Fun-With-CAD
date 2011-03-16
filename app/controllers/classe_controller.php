@@ -5,32 +5,12 @@ class ClasseController extends AppController {
 	var $name = 'Classe';
     
     // Index Method
-    // {{{
-    // ===============================================
-    // Creates the index page for the classification
-    // structure.
-    //
-    // Loads all records from the Classes table and
-    // paginates the results
-    // ===============================================
     function index() {
-		//$this->Classes->recursive = 0;
-		//$this->set('classes', $this->paginate());
         $this->view(10018592);
         $this->render('view');
 	}
-    // }}}
 
     // View method
-    // {{{
-    // ===============================================
-    // Creates the view page for the classification
-    // structure.
-    //
-    // loads the information related to the record
-    // associated with the id from the URL structure
-    // ex. /classe/view/1002 1002 is the ID
-    // ===============================================
     function view($id = null) {
         if (!$id) {
 			$this->Session->setFlash(__('Invalad Classe Number', true));
@@ -40,6 +20,8 @@ class ClasseController extends AppController {
         $this->set('breadCrumb', 'Categories');
         $this->set('breadCrumbLink', '/classe/');
 
+        // used to pull recursive parent classes for breadcrumbs
+        // todo: switch the database schema to mptt for simpler queries
         $this->set('uberClass', $this->Classe->query(
             'SELECT 
 	            `superSuperClass`.`id`,

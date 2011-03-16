@@ -136,9 +136,15 @@
                 </div>
             </div>
         </div>
-        <?php //pr(authsome::get());?>
-        <?php //pr($parts);?>
-        <?php //CakeLog::write('debug', '============= Some Page Loaded ============='); ?>
-        <?php //echo $this->element('sql_dump'); ?>
+        <?php 
+            // Prints data about logged in user and sessions
+            // pr(authsome::get());
+                            
+            // Prints Array of parts on any part page.
+            //pr($parts);
+                            
+            // Shows table with sql queries being executed for page
+            //echo $this->element('sql_dump'); 
+        ?>
     </body>
 </html>

@@ -1,20 +1,9 @@
-<?php if ($classe['Classe']['parent_id'] != null or $classe['Parts'] != null) { 
-    //
-    // This Section Creates the breadcrumbs for the  
-    // top of the page.
-    //
-    // uberClass is a variable from the controller
-    // pulling data from the database.
-    //
-    // breadCrumb is a variable from the controller
-    // hard coded to show the home catagory within
-    // the breadcrumb heiarcy.
-    //
-    // uberClass Index is the Parent's Parent's Parent
-    // superSuperClass index is the Parent's Parent
-    // superClass is Classe's parent.
-    //
-    $this->Html->addCrumb($breadCrumb, $breadCrumbLink); 
+
+<?php 
+    //creates breadcrumbs. ifs stop repitition.
+    // Home > uberclass > SuperSuperClass > SuperClass > Class
+    if ($classe['Classe']['parent_id'] != null or $classe['Parts'] != null) { 
+        $this->Html->addCrumb($breadCrumb, $breadCrumbLink); 
     if ($uberClass[0]['uberClass']['id'] != null and
         $uberClass[0]['uberClass']['id'] != 10018592 and // make sure it isnt the main catagory
         $uberClass[0]['uberClass']['id'] >= 1100000) { // none of the top level catagories
