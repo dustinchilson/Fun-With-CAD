@@ -1,7 +1,11 @@
 Readme:
 ================================================================================
 This setup uses CakePHP as a Model-View-Controller website. Uses DRY (dont
-repead yourself) pricipal to abstract as much code as possible.
+repeat yourself) pricipal to abstract as much code as possible.
+
+The entire directory is stored in a git repository and changes are tracked by
+git. The plugins are their own repositories. There are changes to these repos to
+customize them to this project.
 
 folders & files:
     app - contains most of the application code
