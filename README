@@ -7,7 +7,7 @@ The entire directory is stored in a git repository and changes are tracked by
 git. The plugins are their own repositories. There are changes to these repos to
 customize them to this project.
 
-###folders & files:###
+##folders & files:##
     app - contains most of the application code
         config - setup configurations for db as well as environment and caching
         controllers - each controller works as a separate interface between a
