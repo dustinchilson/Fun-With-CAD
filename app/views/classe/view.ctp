@@ -1,27 +1,33 @@
-
 <?php 
     //creates breadcrumbs. ifs stop repitition.
     // Home > uberclass > SuperSuperClass > SuperClass > Class
     if ($classe['Classe']['parent_id'] != null or $classe['Parts'] != null) { 
+        // Creates Home Link
         $this->Html->addCrumb($breadCrumb, $breadCrumbLink); 
-    if ($uberClass[0]['uberClass']['id'] != null and
-        $uberClass[0]['uberClass']['id'] != 10018592 and // make sure it isnt the main catagory
-        $uberClass[0]['uberClass']['id'] >= 1100000) { // none of the top level catagories
-            $this->Html->addCrumb(
-                $uberClass[0]['uberClass']['desc'], '/classe/view/'.
-                $uberClass[0]['uberClass']['id']);
-
-    }
-    if ($uberClass[0]['superSuperClass']['id'] != null and 
-        $uberClass[0]['superSuperClass']['id'] != 10018592) { // make sure it isnt the main catagory
-            $this->Html->addCrumb(
-            $uberClass[0]['superSuperClass']['desc'], '/classe/view/'.
-            $uberClass[0]['superSuperClass']['id']);
-    }
-    if ($classe['superClass']['id'] != 10018592) { // make sure it isnt the main catagory
-        $this->Html->addCrumb($classe['superClass']['desc'], '/classe/view/'.$classe['superClass']['id']);
-    };
-    $this->Html->addCrumb($classe['Classe']['desc'], '/classe/view/'.$classe['Classe']['id']);
+        
+        if ($uberClass[0]['uberClass']['id'] != null and
+            $uberClass[0]['uberClass']['id'] != 10018592 and // make sure it isnt the main catagory
+            $uberClass[0]['uberClass']['id'] >= 1100000) { // none of the top level catagories
+                //Creates Uberclass Link
+                $this->Html->addCrumb(
+                    $uberClass[0]['uberClass']['desc'], '/classe/view/'.
+                    $uberClass[0]['uberClass']['id']);
+        }
+        
+        if ($uberClass[0]['superSuperClass']['id'] != null and 
+            $uberClass[0]['superSuperClass']['id'] != 10018592) { // make sure it isnt the main catagory
+                //Creates superSuperClass Link
+                $this->Html->addCrumb(
+                $uberClass[0]['superSuperClass']['desc'], '/classe/view/'.
+                $uberClass[0]['superSuperClass']['id']);
+        }
+        
+        if ($classe['superClass']['id'] != 10018592) { // make sure it isnt the main catagory
+            //Creates Super Class Link
+            $this->Html->addCrumb($classe['superClass']['desc'], '/classe/view/'.$classe['superClass']['id']);
+        };
+        //Creates Class Link
+        $this->Html->addCrumb($classe['Classe']['desc'], '/classe/view/'.$classe['Classe']['id']);
 ?>
     
     <div class="topClasses">
