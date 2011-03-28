@@ -1,0 +1,548 @@
+2011-02-07 17:08:58 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:09:03 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:09:09 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 95]
+2011-02-07 17:09:09 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:09:24 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:09:30 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 95]
+2011-02-07 17:09:30 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:10:39 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 95]
+2011-02-07 17:10:39 Notice: Notice (8): Undefined variable: message in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/cake/libs/cake_log.php, line 237]
+2011-02-07 17:11:53 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 95]
+2011-02-07 17:14:26 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 95]
+2011-02-07 17:18:03 Debug: Some Page Loaded, bla.
+2011-02-07 17:19:04 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:20:34 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:20:36 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:22:06 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:23:04 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:23:22 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:23:27 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:26:10 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:26:10 Notice: Notice (8): Array to string conversion in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 96]
+2011-02-07 17:26:10 Debug: Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array
+2011-02-07 17:26:28 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:26:28 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 96]
+2011-02-07 17:26:28 Debug: 
+2011-02-07 17:27:06 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:30:48 Debug: ============= Some Page Loaded, bla. =============
+2011-02-07 17:37:52 Debug: ============= Some Page Loaded =============
+2011-02-07 17:37:57 Debug: ============= Some Page Loaded =============
+2011-02-07 17:40:54 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:01 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:01 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:04 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:07 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:07 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:10 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:11 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:22 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:23 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:28 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:28 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:34 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:34 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:34 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:34 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:36 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:36 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:37 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:37 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:38 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:38 Debug: ============= Some Page Loaded =============
+2011-02-07 17:41:39 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 14]
+2011-02-07 17:41:39 Debug: ============= Some Page Loaded =============
+2011-02-07 17:43:16 Debug: ============= Some Page Loaded =============
+2011-02-07 17:43:33 Debug: ============= Some Page Loaded =============
+2011-02-07 17:43:39 Debug: ============= Some Page Loaded =============
+2011-02-07 17:44:35 Debug: ============= Some Page Loaded =============
+2011-02-07 17:44:37 Debug: ============= Some Page Loaded =============
+2011-02-07 17:47:30 Debug: ============= Some Page Loaded =============
+2011-02-07 17:54:31 Debug: ============= Some Page Loaded =============
+2011-02-07 17:56:16 Debug: ============= Some Page Loaded =============
+2011-02-07 17:56:21 Debug: ============= Some Page Loaded =============
+2011-02-07 17:56:24 Debug: ============= Some Page Loaded =============
+2011-02-07 17:56:26 Debug: ============= Some Page Loaded =============
+2011-02-07 18:00:38 Debug: ============= Some Page Loaded =============
+2011-02-07 18:00:40 Debug: ============= Some Page Loaded =============
+2011-02-07 18:01:12 Debug: ============= Some Page Loaded =============
+2011-02-07 18:01:13 Notice: Notice (8): Undefined index: name in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 28]
+2011-02-07 18:01:13 Debug: ============= Some Page Loaded =============
+2011-02-07 18:01:14 Debug: ============= Some Page Loaded =============
+2011-02-07 18:01:16 Debug: ============= Some Page Loaded =============
+2011-02-07 18:03:15 Notice: Notice (8): Undefined index: name in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 28]
+2011-02-07 18:03:15 Debug: ============= Some Page Loaded =============
+2011-02-07 18:03:33 Notice: Notice (8): Undefined index: name in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 28]
+2011-02-07 18:03:33 Debug: ============= Some Page Loaded =============
+2011-02-07 18:04:02 Debug: ============= Some Page Loaded =============
+2011-02-07 18:04:45 Debug: ============= Some Page Loaded =============
+2011-02-07 18:05:13 Debug: ============= Some Page Loaded =============
+2011-02-07 18:08:40 Debug: ============= Some Page Loaded =============
+2011-02-07 18:08:47 Debug: ============= Some Page Loaded =============
+2011-02-07 18:09:14 Debug: ============= Some Page Loaded =============
+2011-02-07 18:09:23 Debug: ============= Some Page Loaded =============
+2011-02-07 18:13:22 Debug: ============= Some Page Loaded =============
+2011-02-07 18:21:35 Notice: Notice (8): Undefined property: View::$Paginator in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 40]
+2011-02-07 18:22:18 Notice: Notice (8): Undefined variable: classes in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 47]
+2011-02-07 18:22:18 Debug: ============= Some Page Loaded =============
+2011-02-07 18:23:17 Notice: Notice (8): Undefined index: Part in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:23:17 Notice: Notice (8): Undefined index: Part in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:23:17 Notice: Notice (8): Undefined index: Part in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:23:17 Debug: ============= Some Page Loaded =============
+2011-02-07 18:24:57 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:24:57 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:24:57 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:24:57 Debug: ============= Some Page Loaded =============
+2011-02-07 18:25:39 Debug: ============= Some Page Loaded =============
+2011-02-07 18:25:53 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:25:53 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:25:53 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:25:53 Debug: ============= Some Page Loaded =============
+2011-02-07 18:26:27 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:26:27 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:26:27 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:26:27 Debug: ============= Some Page Loaded =============
+2011-02-07 18:26:28 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:26:28 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:26:28 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:26:28 Debug: ============= Some Page Loaded =============
+2011-02-07 18:29:43 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 54]
+2011-02-07 18:29:43 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 55]
+2011-02-07 18:29:44 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 56]
+2011-02-07 18:29:44 Debug: ============= Some Page Loaded =============
+2011-02-07 18:30:26 Debug: ============= Some Page Loaded =============
+2011-02-07 18:47:53 Notice: Notice (8): Undefined variable: class in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 47]
+2011-02-07 18:47:53 Debug: ============= Some Page Loaded =============
+2011-02-07 18:48:17 Debug: ============= Some Page Loaded =============
+2011-02-07 18:49:10 Debug: ============= Some Page Loaded =============
+2011-02-07 18:49:24 Debug: ============= Some Page Loaded =============
+2011-02-07 18:50:09 Debug: ============= Some Page Loaded =============
+2011-02-07 18:50:24 Debug: ============= Some Page Loaded =============
+2011-02-07 18:50:49 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:50:49 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:50:49 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:50:49 Debug: ============= Some Page Loaded =============
+2011-02-07 18:51:14 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:14 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:14 Notice: Notice (8): Undefined index: Parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:14 Debug: ============= Some Page Loaded =============
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:49 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 47 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 47 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:51:50 Notice: Notice (8): Undefined offset: 47 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-07 18:51:50 Debug: ============= Some Page Loaded =============
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 0 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 0 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 0 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 1 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 2 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 3 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 4 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 5 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 6 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 7 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 8 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 9 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 10 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 11 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 12 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:47 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 13 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 14 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 15 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 16 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 17 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 18 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 19 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 20 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 21 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 22 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 23 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 24 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 25 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 26 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 27 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 28 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 29 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 30 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 31 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 32 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 33 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 34 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 35 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 36 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 37 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 38 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 39 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 40 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 41 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 42 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 43 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:48 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 44 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 45 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 49]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 50]
+2011-02-07 18:53:49 Notice: Notice (8): Undefined offset: 46 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 51]
+2011-02-07 18:53:49 Debug: ============= Some Page Loaded =============
+2011-02-07 18:55:40 Debug: ============= Some Page Loaded =============
+2011-02-07 18:55:59 Debug: ============= Some Page Loaded =============
+2011-02-07 18:57:24 Debug: ============= Some Page Loaded =============
+2011-02-07 18:57:29 Debug: ============= Some Page Loaded =============
+2011-02-07 18:58:18 Debug: ============= Some Page Loaded =============
+2011-02-07 18:58:41 Debug: ============= Some Page Loaded =============
+2011-02-07 18:58:56 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:02 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:02 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:04 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:05 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:11 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:12 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:20 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:40 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:51 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:54 Debug: ============= Some Page Loaded =============
+2011-02-07 18:59:59 Debug: ============= Some Page Loaded =============
+2011-02-07 19:00:06 Debug: ============= Some Page Loaded =============
+2011-02-07 19:00:08 Debug: ============= Some Page Loaded =============
+2011-02-07 19:02:29 Debug: ============= Some Page Loaded =============
+2011-02-07 19:02:38 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:01 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:02 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:04 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:08 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:11 Debug: ============= Some Page Loaded =============
+2011-02-07 19:03:13 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:39 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:42 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:43 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:43 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:43 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:46 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:51 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:55 Debug: ============= Some Page Loaded =============
+2011-02-07 19:04:57 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:00 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:04 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:11 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:51 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:52 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:53 Debug: ============= Some Page Loaded =============
+2011-02-07 19:05:56 Debug: ============= Some Page Loaded =============
+2011-02-07 19:08:20 Debug: ============= Some Page Loaded =============
+2011-02-07 19:08:24 Debug: ============= Some Page Loaded =============
+2011-02-07 19:08:26 Debug: ============= Some Page Loaded =============
+2011-02-07 19:08:33 Debug: ============= Some Page Loaded =============
+2011-02-07 19:11:44 Debug: ============= Some Page Loaded =============
+2011-02-07 19:15:17 Debug: ============= Some Page Loaded =============
+2011-02-07 19:40:31 Debug: ============= Some Page Loaded =============
+2011-02-07 19:41:05 Debug: ============= Some Page Loaded =============
+2011-02-07 19:41:57 Debug: ============= Some Page Loaded =============
+2011-02-07 19:43:20 Debug: ============= Some Page Loaded =============
+2011-02-07 19:43:49 Debug: ============= Some Page Loaded =============
+2011-02-07 19:44:12 Debug: ============= Some Page Loaded =============
+2011-02-07 19:44:25 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:11 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:36 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:42 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:46 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:47 Debug: ============= Some Page Loaded =============
+2011-02-07 19:45:50 Debug: ============= Some Page Loaded =============
+2011-02-07 19:46:42 Debug: ============= Some Page Loaded =============
+2011-02-07 19:46:43 Debug: ============= Some Page Loaded =============
+2011-02-07 19:46:45 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:42 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:48 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:50 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:51 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:54 Debug: ============= Some Page Loaded =============
+2011-02-07 19:51:56 Debug: ============= Some Page Loaded =============
+2011-02-07 19:52:48 Debug: ============= Some Page Loaded =============
+2011-02-07 19:53:23 Debug: ============= Some Page Loaded =============
+2011-02-07 19:53:25 Debug: ============= Some Page Loaded =============
+2011-02-07 19:53:27 Debug: ============= Some Page Loaded =============
+2011-02-07 19:53:51 Debug: ============= Some Page Loaded =============
+2011-02-07 19:54:16 Debug: ============= Some Page Loaded =============
+2011-02-07 19:54:17 Debug: ============= Some Page Loaded =============
+2011-02-07 19:54:23 Debug: ============= Some Page Loaded =============
+2011-02-07 20:23:50 Debug: ============= Some Page Loaded =============
+2011-02-07 20:23:54 Debug: ============= Some Page Loaded =============
+2011-02-09 15:25:31 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:25:31 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:27:28 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:27:28 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:29:43 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:29:43 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:29:45 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:29:45 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:29:47 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:29:47 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:29:51 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:29:51 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:31:38 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 52]
+2011-02-09 15:31:38 Notice: Notice (8): Undefined variable: parts in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 53]
+2011-02-09 15:46:46 Notice: Notice (8): Undefined property: ClasseController::$Category in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/classe_controller.php, line 8]
+2011-02-09 15:47:15 Notice: Notice (8): Undefined property: ClasseController::$Category in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/classe_controller.php, line 8]
+2011-02-09 15:47:27 Notice: Notice (8): Undefined property: ClasseController::$Category in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/classe_controller.php, line 8]
+2011-02-09 16:22:10 Notice: Notice (8): Undefined index: long_desc in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 75]
+2011-02-09 16:22:19 Notice: Notice (8): Undefined index: long_desc in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 75]
+2011-02-09 19:59:14 Debug: No Parts in this Catagory.....10021916
+2011-02-11 19:35:11 Notice: Notice (8): Undefined index: name in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/part/view.ctp, line 31]
+2011-02-11 19:35:11 Notice: Notice (8): Undefined index: id in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/part/view.ctp, line 31]
+2011-02-14 16:50:03 Notice: Notice (8): Use of undefined constant reset - assumed 'reset' in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 2]
+2011-02-14 17:36:32 Notice: Notice (8): Undefined property: View::$Session in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 71]
+2011-02-14 18:32:24 Notice: Notice (8): Undefined variable: breadCrumb in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 70]
+2011-02-14 18:32:24 Notice: Notice (8): Undefined variable: breadCrumbLink in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/layouts/default.ctp, line 70]
+2011-02-14 20:07:16 Notice: Notice (8): Undefined index: superCuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:07:16 Notice: Notice (8): Undefined index: superSuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:07:50 Notice: Notice (8): Undefined index: desc in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:07:50 Notice: Notice (8): Undefined index: id in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:08:19 Notice: Notice (8): Undefined index: desc in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:08:19 Notice: Notice (8): Undefined index: id in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 6]
+2011-02-14 20:13:34 Notice: Notice (8): Undefined variable: superSuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 4]
+2011-02-14 20:13:34 Notice: Notice (8): Undefined variable: superSuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 92]
+2011-02-14 20:14:14 Notice: Notice (8): Undefined variable: superSuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 92]
+2011-02-14 20:14:33 Notice: Notice (8): Undefined variable: superSuperClass in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 5]
+2011-02-14 21:32:35 Notice: Notice (8): Undefined offset: 0 in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 1]
+2011-02-14 21:32:54 Notice: Notice (8): Undefined index: id in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/view.ctp, line 1]
+2011-02-18 19:30:45 Notice: Notice (8): Undefined index: MyFile in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/uploads_controller.php, line 6]
+2011-02-18 19:31:27 Notice: Notice (8): Undefined property: UploadsController::$MyFile in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/uploads_controller.php, line 15]
+2011-02-18 19:35:05 Notice: Notice (8): Undefined index: type in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/uploads_controller.php, line 29]
+2011-02-18 19:35:05 Notice: Notice (8): Undefined index: name in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/uploads_controller.php, line 31]
+2011-02-18 19:35:05 Notice: Notice (8): Undefined index: data in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/uploads_controller.php, line 32]
+2011-02-21 17:27:40 Notice: Notice (8): Undefined variable: data in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/posts/add.ctp, line 11]
+2011-02-21 18:17:21 Notice: Notice (8): Undefined variable: uploads in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/uploads/index.ctp, line 18]
+2011-02-21 18:50:44 Notice: Notice (8): Constant MEDIA_TRANSFER already defined in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/config/core.php, line 311]
+2011-02-21 18:50:44 Notice: Notice (8): Constant MEDIA_TRANSFER_URL already defined in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/config/core.php, line 312]
+2011-02-21 18:50:56 Notice: Notice (8): Constant MEDIA_TRANSFER already defined in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/config/core.php, line 311]
+2011-02-21 18:50:56 Notice: Notice (8): Constant MEDIA_TRANSFER_URL already defined in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/config/core.php, line 312]
+2011-02-23 16:36:50 Notice: Notice (8): Undefined property: View::$Paginator in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/views/classe/index.ctp, line 10]
+2011-02-23 17:10:27 Notice: Notice (8): Undefined property: ClasseController::$Html in [/Users/dustinchilson/Dropbox/Reid Supply/fwc/app/controllers/classe_controller.php, line 59]
+2011-03-21 18:21:06 Debug: Notice (8): Undefined variable: facebook in [C:\xampp\htdocs\Dropbox\Reid Supply\fwc\app\views\layouts\default.ctp, line 2]
+2011-03-21 18:31:28 Debug: Notice (8): Undefined variable: form in [C:\xampp\htdocs\Dropbox\Reid Supply\fwc\app\plugins\spark_plug\views\users\login.ctp, line 4]
+2011-03-21 18:32:32 Debug: Notice (8): Undefined variable: form in [C:\xampp\htdocs\Dropbox\Reid Supply\fwc\app\plugins\spark_plug\views\users\login.ctp, line 4]
+2011-03-21 18:32:45 Debug: Notice (8): Undefined variable: facebook in [C:\xampp\htdocs\Dropbox\Reid Supply\fwc\app\views\layouts\default.ctp, line 150]
