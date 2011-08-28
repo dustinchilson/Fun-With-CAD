@@ -1,6 +1,6 @@
 Readme:
 ================================================================================
-This setup uses CakePHP as a Model-View-Controller website. Uses DRY (dont
+This setup uses CakePHP as a Model-View-Controller website. Uses DRY (don't
 repeat yourself) pricipal to abstract as much code as possible.
 
 The entire directory is stored in a git repository and changes are tracked by
@@ -45,9 +45,9 @@ folders & files:
                 blank.ctp - template for page to view without nav and header -
                             used on part view as part of popout
                default.ctp - main layout of page.
-        webroot - web accessable files, CSS, javascript, images
+        webroot - web accessible files, CSS, javascript, images
             CSS - all CSS files
-                blueprint - blueprint css framwork
+                blueprint - blueprint css framework
                 fwc.css - site specific css
                 jquwey.fancybox-1.3.4.css - style for popouts
             files - used for downloads, not used
